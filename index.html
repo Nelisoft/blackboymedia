@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blackboy || Responsive CodeIgniter Template</title>
+      
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <!--- End favicon-->
+      
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+        <!-- End google font  -->
+      
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/custom-font.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/icomoon.css">
+      
+        <!-- Code Editor  -->
+      
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/app.min.css">
+        <style>
+          .np{
+            background-image: url(assets/images/bg.jpg);
+            background-color: rgba(0, 0, 0, 0.63);
+            background-blend-mode: overlay;
+            background-position: top;
+            background-size: cover;
+            object-fit: contain;
+            background-repeat: no-repeat;
+          }
+        </style>
+      </head>
+<body>
+  <header class="site-header blackboy-header-section blackboy-header1 dark-bg" id="sticky-menu">
+    <div class="container">
+        <nav class="navbar site-navbar">
+            <!-- Brand Logo-->
+            <div class="brand-logo">
+                <a href="index.html">
+                    <img src="assets/images/logo/logo.png" alt="" class="light-version-logo">
+                </a>
+            </div>
+            <div class="menu-block-wrapper">
+                <div class="menu-overlay"></div>
+                <nav class="menu-block" id="append-menu-header">
+                    <div class="mobile-menu-head">
+                        <div class="go-back">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="current-menu-title"></div>
+                        <div class="mobile-menu-close">&times;</div>
+                    </div>
+                    <ul class="site-menu-main">
+                      <li class="nav-item">
+                        <a href="about.html" class="nav-link-item">Home</a>
+                    </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link-item">Services</a>
+                        </li>
+                        <li class="nav-item nav-item-has-children">
+                            <a href="#" class="nav-link-item drop-trigger">Publications <i class="fas fa-angle-down"></i></a>
+                            <ul class="sub-menu" id="submenu-2">
+                             
+                                <li class="sub-menu--item">
+                                    <a href="<?= route_to('pricing">
+                                        <span class="menu-item-text">Magazine</span>
+                                    </a>
+                                </li>
+                                <li class="sub-menu--item">
+                                  <a href="<?= route_to('pricing">
+                                      <span class="menu-item-text">Journals</span>
+                                  </a>
+                              </li>
+                         
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a href="about.html" class="nav-link-item">Raise a Ticket</a>
+                      </li>
+                        <li class="nav-item nav-item-has-children">
+                            <a href="#" class="nav-link-item drop-trigger">About Us <i class="fas fa-angle-down"></i></a>
+                            <ul class="sub-menu" id="submenu-9">
+                              <li class="sub-menu--item">
+                                <a href="<?= route_to('blog">
+                                    <span class="menu-item-text">Team</span>
+                                </a>
+                            </li>
+                                <li class="sub-menu--item">
+                                    <a href="<?= route_to('blog">
+                                        <span class="menu-item-text">CRS</span>
+                                    </a>
+                                </li>
+                             
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a href="contact.html" class="nav-link-item">Store</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="contact.html" class="nav-link-item">Studio</a>
+                    </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link-item">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+                <a class="blackboy-default-btn pill blackboy-header-btn"  href="contact.html">
+                    Contact Us
+                </a>
+            </div>
+            <!-- mobile menu trigger -->
+            <div class="mobile-menu-trigger light">
+                <span></span>
+            </div>
+            <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+    </div>
+</header>
+<!--End landex-header-section -->
+
+    <div class="blackboy-hero-section np">
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="blackboy-hero-content">
+                <h1>
+                  <span class="blackboy-title-animation">
+                    Black Boy
+                    <img src="assets/images/v1/star.png" alt="">
+                  </span>
+                  Media
+                </h1>
+                <p >Black Boy  Media is a mission-driven media and storytelling company centered on empowering underrepresented voices, particularly Black creatives, in the entertainment industry. Through its groundbreaking mentorship initiative, the Black Boy Writes / Black Girl Writes Program, the company equips emerging writers with industry access, professional development, and personalized support. This is accomplished by:
+                  a) a robust mentorship framework led by established writers, showrunners, and producers, and
+                  b) a growing portfolio of original content, collaborations, and strategic partnerships that spotlight authentic, untold stories across film and television.</p>
+             
+                <a class="blackboy-call-btn"  href="contact.html">Raise a Ticket <i class="icon-call"></i></a>
+                <div class="blackboy-hero-shape">
+                  <img src="assets/images/v1/shape1.png" alt="">
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+     
+      <div class="section blackboy-section-padding4">
+        <div class="container">
+          <div class="blackboy-section-title center">
+            <h2>
+              We provide effective
+              <span class="blackboy-title-animation">
+                Media solutions
+                <span class="blackboy-title-icon">
+                  <img src="assets/images/v1/star2.png" alt="">
+                </span>
+              </span>
+            </h2>
+          </div>
+          <div class="blackboy-service-wrap">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.1s">
+                  
+                  <div class="blackboy-iconbox-data">
+                    <h3>Multimedia Content Direction/Development and Distribution</h3>
+                    <p>Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.2s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Messaging development</h3>
+                    <p>Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.3s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Digital operations outsourcing</h3>
+                    <p>Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Media/Publicity Planning</h3>
+                    <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Media buying/Airtime</h3>
+                    <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Reputation/Portfolio Managemen</h3>
+                    <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Correspondence Managemen</h3>
+                    <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="blackboy-iconbox-wrap wow fadeInUpX" data-wow-delay="0.4s">
+                
+                  <div class="blackboy-iconbox-data">
+                    <h3>Patron success outsourcing</h3>
+                    <p>Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.</p>
+                    <a class="blackboy-icon" href="service"><img src="assets/images/icon/arrow-right.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-danger py-2 px-4" style="width: fit-content;">
+                <a class="text-light"  href="contact.html">
+                    View All Services
+                </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+      <div class="section blackboy-section-padding">
+        <div id="blackboy-counter"></div>
+        <div class="container">
+          <div class="blackboy-section-title">
+            <div class="row">
+              <div class="col-lg-7">
+                <h2>
+                  <span class="blackboy-title-animation">
+                    We make your
+                    <span class="blackboy-title-icon">
+                      <img src="assets/images/v1/star2.png" alt="">
+                    </span>
+                  </span>
+                  Media Work stand out
+                </h2>
+              </div>
+              <div class="col-lg-4 offset-lg-1 d-flex align-items-center">
+                <p>We work closely with our clients to know their objectives, target audience, unique needs, and practical design solutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="blackboy-video-wrap wow fadeInUpX" data-wow-delay="0s">
+                <img src="assets/images/v1/video-bg.png" alt="">
+                <a class="blackboy-video-popup play-btn1 video-init" href="https://www.youtube.com/watch?v=Vx2aLNgGoAE">
+                  <img src="assets/images/v1/play-btn.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blackboy-counter-wrap">
+                <div class="blackboy-counter-data">
+                  <h2 class="blackboy-counter-number"><span data-percentage="15" class="blackboy-counter"></span>+</h2>
+                  <p>Years of experience</p>
+                </div>
+                <div class="blackboy-counter-data">
+                  <h2 class="blackboy-counter-number"><span data-percentage="120" class="blackboy-counter"></span>k</h2>
+                  <p>Successful projects</p>
+                </div>
+                <div class="blackboy-counter-data">
+                  <h2 class="blackboy-counter-number"><span data-percentage="100" class="blackboy-counter"></span>%</h2>
+                  <p>Client satisfaction rate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+      <div class="section dark-bg blackboy-section-padding">
+        <div class="container">
+          <div class="blackboy-section-title center light">
+            <h2>
+              Have a wide range of
+              <span class="blackboy-title-animation">
+                creative projects
+                <span class="blackboy-title-icon">
+                  <img src="assets/images/v1/star2.png" alt="">
+                </span>
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div class="swiper blackboy-project-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project1.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>Product Design</h3>
+                    </a>
+                    <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project2.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>Logo and Branding</h3>
+                    </a>
+                    <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project3.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>App UI/UX Design</h3>
+                    </a>
+                    <p>Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project4.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>Packaging Design</h3>
+                    </a>
+                    <p>Creating packaging solutions for products that not only protect attract customers on store.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project1.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>Product Design</h3>
+                    </a>
+                    <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-project-thumb">
+                <img src="assets/images/v1/project2.png" alt="">
+                <div class="blackboy-project-wrap">
+                  <div class="blackboy-project-data">
+                    <a href="<?= route_to('singlePortfolio">
+                      <h3>Logo and Branding</h3>
+                    </a>
+                    <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
+                  </div>
+                  <a class="blackboy-project-icon" href="single-portfolio') }}">
+                    <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.9795 2C19.9795 2 20.5 8 25.9795 11.2C28.4887 12.6653 31.9795 14 31.9795 14M31.9795 14H2M31.9795 14C31.9795 14 28.5339 15.415 25.9795 16.8C19.9795 20.0533 19.9795 26 19.9795 26" stroke="#FDFDE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+      <div class="section">
+        <div class="container">
+          <div class="blackboy-faq-wrap">
+            <div class="row">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div class="blackboy-default-content">
+                  <h2>
+                    <span class="blackboy-title-animation">
+                      Our high-quality
+                      <span class="blackboy-title-icon">
+                        <img src="assets/images/v1/star2.png" alt="">
+                      </span>
+                    </span>
+                    working processes
+                  </h2>
+                  <p>We focus at every stage on effective communication and collaboration between the client and ensuring that the final design meets the client's objectives and expectations.</p>
+                  <p>It is important to note that these are simplified steps, and the actual work process may vary depending on the complexity of the project.</p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="blackboy-accordion-wrap wow fadeInUpX" data-wow-delay="0s" id="blackboy-accordion">
+                  <div class="blackboy-accordion-item open">
+                    <div class="blackboy-accordion-header">
+                      <h3>01/ Project idea</h3>
+                    </div>
+                    <div class="blackboy-accordion-body">
+                      <p>The process starts with a detailed discussion with the client to understand their idea & goals.</p>
+                    </div>
+                  </div>
+                  <div class="blackboy-accordion-item">
+                    <div class="blackboy-accordion-header">
+                      <h3>02/ Brainstorming</h3>
+                    </div>
+                    <div class="blackboy-accordion-body">
+                      <p>Brainstorming is a group creativity technique in which members attempt to find a conclusion.</p>
+                    </div>
+                  </div>
+                  <div class="blackboy-accordion-item">
+                    <div class="blackboy-accordion-header">
+                      <h3>03/ Launch</h3>
+                    </div>
+                    <div class="blackboy-accordion-body">
+                      <p>The completed design assets or final product are delivered with necessary documentation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+    
+    
+      <div class="blackboy-auto-slider-section">
+        <div class="swiper blackboy-auto-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blackboy-auto-slider-item">
+                <h3>Let's create new experiences</h3>
+                <img src="assets/images/v1/star3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End section -->
+    
+    
+
+      <!-- Footer  -->
+  <footer class="blackboy-footer-section dark-bg">
+    <div class="container">
+        <div class="blackboy-footer-top blackboy-section-padding">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="blackboy-default-content light position-relative">
+                        <h2>
+                            <span class="blackboy-title-animation">
+                                Let's start a
+                                <span class="blackboy-title-icon">
+                                    <img src="assets/images/v1/star2.png" alt="">
+                                </span>
+                            </span>
+                            project together
+                        </h2>
+                        <p>We work closely with our clients to understand their objectives, target audience, and unique needs. We use our creative skills to translate these requirements and practical design solutions.</p>
+                        <div class="blackboy-info-wrap">
+                            <div class="blackboy-info">
+                                <ul>
+                                    <li>Give us a call:</li>
+                                    <li><a href="">(123) 456-7890</a></li>
+                                </ul>
+                            </div>
+                            <div class="blackboy-info">
+                                <ul>
+                                    <li>Send us an email:</li>
+                                    <li><a href="">info@mthemeus.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blackboy-social-icon social-large">
+                            <ul>
+                                <li>
+                                    <a href="https://twitter.com/" target="_blank">
+                                        <i class="icon-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/" target="_blank">
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <i class="icon-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/" target="_blank">
+                                        <i class="icon-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blackboy-hero-shape blackboy-footer-shape">
+                            <img src="assets/images/v1/shape1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="blackboy-form-wrap">
+                        <h4>Send us a message</h4>
+                        <form action="#">
+                            <div class="blackboy-form-field">
+                                <input type="text" placeholder="Your name">
+                            </div>
+                            <div class="blackboy-form-field">
+                                <input type="email" placeholder="Your email address">
+                            </div>
+                            <div class="blackboy-form-field">
+                                <input type="text" placeholder="+088-234-6849">
+                            </div>
+                            <div class="blackboy-form-field">
+                                <textarea name="textarea" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <button id="blackboy-submit-btn" type="submit">Send message <span><img src="assets/images/icon/arrow-right3.svg" alt=""></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blackboy-footer-bottom">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="blackboy-footer-logo">
+                        <a href="">
+                            <img src="assets/images/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="blackboy-copywright one">
+                        <p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+
+<div class="blackboy-preloader-wrap">
+    <div class="blackboy-preloader">
+    </div>
+</div>
+
+ <!-- scripts -->
+ <script src="assets/js/jquery-3.6.0.min.js"></script>
+ <script src="assets/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/js/aos.js"></script>
+ <script src="assets/js/menu/menu.js"></script>
+ <script src="assets/js/gsap.min.js"></script>
+ <script src="assets/js/isotope.pkgd.min.js"></script>
+ <script src="assets/js/jquery.magnific-popup.min.js"></script>
+ <script src="assets/js/swiper-bundle.min.js"></script>
+ <script src="assets/js/countdown.js"></script>
+ <script src="assets/js/wow.min.js"></script>
+ <script src="assets/js/SplitText.min.js"></script>
+ <script src="assets/js/ScrollTrigger.min.js"></script>
+ <script src="assets/js/ScrollSmoother.min.js"></script>
+ <script src="assets/js/skill-bar.js"></script>
+ <script src="assets/js/infinite-slider.js"></script>
+ <script src="assets/js/image-resizing.js"></script>
+ 
+ <script src="assets/js/faq.js"></script>
+
+ <script src="assets/js/app.js"></script>
+</body>
+</html>
