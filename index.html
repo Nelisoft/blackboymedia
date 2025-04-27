@@ -60,22 +60,22 @@
                     </div>
                     <ul class="site-menu-main">
                       <li class="nav-item">
-                        <a href="about.html" class="nav-link-item">Home</a>
+                        <a href="index.html" class="nav-link-item">Home</a>
                     </li>
                         <li class="nav-item">
-                            <a href="about.html" class="nav-link-item">Services</a>
+                            <a href="services.html" class="nav-link-item">Services</a>
                         </li>
                         <li class="nav-item nav-item-has-children">
                             <a href="#" class="nav-link-item drop-trigger">Publications <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu" id="submenu-2">
                              
                                 <li class="sub-menu--item">
-                                    <a href="<?= route_to('pricing">
+                                    <a href="pricing">
                                         <span class="menu-item-text">Magazine</span>
                                     </a>
                                 </li>
                                 <li class="sub-menu--item">
-                                  <a href="<?= route_to('pricing">
+                                  <a href="pricing">
                                       <span class="menu-item-text">Journals</span>
                                   </a>
                               </li>
@@ -89,12 +89,17 @@
                             <a href="#" class="nav-link-item drop-trigger">About Us <i class="fas fa-angle-down"></i></a>
                             <ul class="sub-menu" id="submenu-9">
                               <li class="sub-menu--item">
-                                <a href="<?= route_to('blog">
+                                <a href="about.html">
+                                    <span class="menu-item-text">About Us</span>
+                                </a>
+                            </li>
+                              <li class="sub-menu--item">
+                                <a href="team.html">
                                     <span class="menu-item-text">Team</span>
                                 </a>
                             </li>
                                 <li class="sub-menu--item">
-                                    <a href="<?= route_to('blog">
+                                    <a href="blog">
                                         <span class="menu-item-text">CRS</span>
                                     </a>
                                 </li>
@@ -102,10 +107,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                          <a href="contact.html" class="nav-link-item">Store</a>
+                          <a href="contact.html" class="nav-link-item">Stores</a>
                       </li>
                       <li class="nav-item">
-                        <a href="contact.html" class="nav-link-item">Studio</a>
+                        <a href="contact.html" class="nav-link-item">Studios</a>
                     </li>
                         <li class="nav-item">
                             <a href="contact.html" class="nav-link-item">Contact Us</a>
@@ -114,11 +119,6 @@
                 </nav>
             </div>
 
-            <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-                <a class="blackboy-default-btn pill blackboy-header-btn"  href="contact.html">
-                    Contact Us
-                </a>
-            </div>
             <!-- mobile menu trigger -->
             <div class="mobile-menu-trigger light">
                 <span></span>
@@ -259,7 +259,7 @@
                 </div>
               </div>
               <div class="bg-danger py-2 px-4" style="width: fit-content;">
-                <a class="text-light"  href="contact.html">
+                <a class="text-light"  href="services.html">
                     View All Services
                 </a>
             </div>
@@ -341,7 +341,7 @@
                 <img src="assets/images/v1/project1.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>Product Design</h3>
                     </a>
                     <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
@@ -359,7 +359,7 @@
                 <img src="assets/images/v1/project2.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>Logo and Branding</h3>
                     </a>
                     <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
@@ -377,7 +377,7 @@
                 <img src="assets/images/v1/project3.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>App UI/UX Design</h3>
                     </a>
                     <p>Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.</p>
@@ -395,7 +395,7 @@
                 <img src="assets/images/v1/project4.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>Packaging Design</h3>
                     </a>
                     <p>Creating packaging solutions for products that not only protect attract customers on store.</p>
@@ -413,7 +413,7 @@
                 <img src="assets/images/v1/project1.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>Product Design</h3>
                     </a>
                     <p>Developing the look and feel of physical products, aesthetics, and functionality.</p>
@@ -431,7 +431,7 @@
                 <img src="assets/images/v1/project2.png" alt="">
                 <div class="blackboy-project-wrap">
                   <div class="blackboy-project-data">
-                    <a href="<?= route_to('singlePortfolio">
+                    <a href="singlePortfolio">
                       <h3>Logo and Branding</h3>
                     </a>
                     <p>Creating or refreshing a company's logo and developing a cohesive visual identity.</p>
@@ -450,58 +450,7 @@
       </div>
       <!-- End section -->
     
-      <div class="section">
-        <div class="container">
-          <div class="blackboy-faq-wrap">
-            <div class="row">
-              <div class="col-lg-7 d-flex align-items-center">
-                <div class="blackboy-default-content">
-                  <h2>
-                    <span class="blackboy-title-animation">
-                      Our high-quality
-                      <span class="blackboy-title-icon">
-                        <img src="assets/images/v1/star2.png" alt="">
-                      </span>
-                    </span>
-                    working processes
-                  </h2>
-                  <p>We focus at every stage on effective communication and collaboration between the client and ensuring that the final design meets the client's objectives and expectations.</p>
-                  <p>It is important to note that these are simplified steps, and the actual work process may vary depending on the complexity of the project.</p>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="blackboy-accordion-wrap wow fadeInUpX" data-wow-delay="0s" id="blackboy-accordion">
-                  <div class="blackboy-accordion-item open">
-                    <div class="blackboy-accordion-header">
-                      <h3>01/ Project idea</h3>
-                    </div>
-                    <div class="blackboy-accordion-body">
-                      <p>The process starts with a detailed discussion with the client to understand their idea & goals.</p>
-                    </div>
-                  </div>
-                  <div class="blackboy-accordion-item">
-                    <div class="blackboy-accordion-header">
-                      <h3>02/ Brainstorming</h3>
-                    </div>
-                    <div class="blackboy-accordion-body">
-                      <p>Brainstorming is a group creativity technique in which members attempt to find a conclusion.</p>
-                    </div>
-                  </div>
-                  <div class="blackboy-accordion-item">
-                    <div class="blackboy-accordion-header">
-                      <h3>03/ Launch</h3>
-                    </div>
-                    <div class="blackboy-accordion-body">
-                      <p>The completed design assets or final product are delivered with necessary documentation.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End section -->
+     
     
     
     
@@ -510,49 +459,49 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
             <div class="swiper-slide">
               <div class="blackboy-auto-slider-item">
-                <h3>Let's create new experiences</h3>
+                <h3>YOU ARE WORTHY...</h3>
                 <img src="assets/images/v1/star3.png" alt="">
               </div>
             </div>
